@@ -3,10 +3,10 @@ streamlit
 
 # ORM and Database Connection
 sqlalchemy
-psycopg2-binary
+psycopg2
 
-# AI Service
-# Using requests to call DeepSeek-compatible HTTP API instead of google-generativeai
+# HTTP Requests for AI APIs
+# Supports: OpenRouter, OpenAI, Anthropic, Google Gemini, and all OpenAI-compatible APIs
 requests
 
 # SQL Validation
@@ -15,5 +15,16 @@ sqlparse
 # Environment Variable Management
 python-dotenv
 
-# Data Rendering
+# Data Manipulation and Rendering
 pandas
+
+# Visualization Libraries
+matplotlib>=3.7.0
+seaborn>=0.12.0
+numpy>=1.24.0
+pillow>=10.0.0
+
+# Optional: Official API clients (uncomment if you prefer using official SDKs)
+# openai>=1.0.0
+# anthropic
+# google-generativeai
