@@ -3,10 +3,10 @@ streamlit
 
 # ORM and Database Connection
 sqlalchemy
-psycopg2
+psycopg2-binary  # <-- FIX: Use binary for easier installation
 
 # HTTP Requests for AI APIs
-# Supports: OpenRouter, OpenAI, Anthropic, Google Gemini, and all OpenAI-compatible APIs
+# Supports: OpenRouter, OpenAI, Anthropic, Google Gemini, etc.
 requests
 
 # SQL Validation
